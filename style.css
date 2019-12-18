@@ -1,0 +1,22 @@
+#header-right{
+	margin-left: 15px;
+}
+
+.navbar-inverse .navbar-brand {
+	background-color: pink;
+	color: white;
+}
+.navbar-nav{
+	background-color: pink;
+}
+
+.navbar-form .navbar-right{
+	margin-right: 100px;
+}
+
+.header-logo img{
+	width: 500px;
+	height: 200px;
+	margin-top: -20px;
+	margin-left: -400px;
+}

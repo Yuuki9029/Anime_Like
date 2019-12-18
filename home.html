@@ -1,57 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="home.css"/>
+
 <head>
     <meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-		
-		<!-- For IE 8 and older>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- For IE 8 and older>
 		<!--[if lt IE 9]>
             <script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
         <![endif]-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Anime Like</title>
-    
+
 </head>
+
 <body>
-        <!--Header-->
-    
+    <!--Header-->
+
     <header class="container">
-        <div class="row">
-            <div id="logo">
-                <img src="image/AnimeLike.png" style="width: 100%" alt=""/>              
-        </div>
-        </div>
-        
-        </header>
-    <nav class="navbar navbar-default" role="navigation">
+
+        <a href="#" class="header-logo">
+            <img src="image/AnimeLike.png" alt="logo head" />
+        </a>
+
+
+    </header>
+    <nav class="navbar navbar-inverse" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="Button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>   
-                </button>
-                <a class="navbar-brand" href="#">Home</a>                
+                <a class="navbar-brand" href="#">Home</a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Wallpapers</a></li>
-                    <li class="active"><a href="#">Fan Art</a></li>
-                </ul>
-                <form  action="search.php" method="get" class="navbar-form navbar-right" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Search</button>
-                </form>
-               
-            </div>
+
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Wallpapers</a></li>
+                <li class="active"><a href="#">Fan Art</a></li>
+            </ul>
+            <form action="search.php" method="get" class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Search</button>
+            </form>
         </div>
-    </nav>   
-    <div id="header-right">	 	
+    </nav>
+    <div id="header-right">
         <select id="all-type">
             <option value="1">All Type</option>
             <option value="2">Loli</option>
@@ -59,108 +52,109 @@
             <option value="4">Flat</option>
         </select>
         <select id="all-content">
-            <option value="all-content" >All Content</option>
-            <option value="2016" >2016</option>
-            <option value="2017" >2017</option>
-            <option value="2018" >2018</option>
-            <option value="2019" >2019</option>            
+            <option value="all-content">All Content</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
         </select>
         <select id="all-Categories">
-            <option value="all-categories" >All Categories</option>
-            <option value="Hiten" >Hiten</option>
-            <option value="Kantoku" >Kantoku</option>        
-        </select>        
-    </div>	
+            <option value="all-categories">All Categories</option>
+            <option value="Hiten">Hiten</option>
+            <option value="Kantoku">Kantoku</option>
+        </select>
+    </div>
 
     <div id="Home-Boby">
         <div class="Boby">
             <a href="#">
                 <div>
-                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon"/>
+                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
                 </div>
                 <div>
-                    <div href="#" class="Photo-Title"> Image1</div>                    
-                </div>
-            </a>
-        </div>
-        <div class="Boby">
-                <a href="#">
-                    <div>
-                        <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon"/>
-                    </div>
-                    <div>
-                        <div href="#" class="Photo-Title"> Image2</div>                    
-                    </div>
-                </a>
-            </div>
-            <div class="Boby">
-                    <a href="#">
-                        <div>
-                            <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon"/>
-                        </div>
-                        <div>
-                            <div href="#" class="Photo-Title"> Image3</div>                    
-                        </div>
-                    </a>
-                </div>
-                <div class="Boby">
-            <a href="#">
-                <div>
-                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon"/>
-                </div>
-                <div>
-                    <div href="#" class="Photo-Title"> Image4</div>                    
-                </div>
-            </a>
-        </div>
-        <div class="Boby">
-                <a href="#">
-                    <div>
-                        <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon"/>
-                    </div>
-                    <div>
-                        <div href="#" class="Photo-Title"> Image5</div>                    
-                    </div>
-                </a>
-            </div>
-            <div class="Boby">
-            <a href="#">
-                <div>
-                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon"/>
-                </div>
-                <div>
-                    <div href="#" class="Photo-Title"> Image6</div>                    
+                    <div href="#" class="Photo-Title"> Image1</div>
                 </div>
             </a>
         </div>
         <div class="Boby">
             <a href="#">
                 <div>
-                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon"/>
+                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
                 </div>
                 <div>
-                    <div href="#" class="Photo-Title"> Image7</div>                    
+                    <div href="#" class="Photo-Title"> Image2</div>
                 </div>
             </a>
         </div>
         <div class="Boby">
-                <a href="#">
-                    <div>
-                        <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon"/>
-                    </div>
-                    <div>
-                        <div href="#" class="Photo-Title"> Image8</div>                    
-                    </div>
-                </a>
-            </div>                                   
+            <a href="#">
+                <div>
+                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
+                </div>
+                <div>
+                    <div href="#" class="Photo-Title"> Image3</div>
+                </div>
+            </a>
+        </div>
+        <div class="Boby">
+            <a href="#">
+                <div>
+                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
+                </div>
+                <div>
+                    <div href="#" class="Photo-Title"> Image4</div>
+                </div>
+            </a>
+        </div>
+        <div class="Boby">
+            <a href="#">
+                <div>
+                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
+                </div>
+                <div>
+                    <div href="#" class="Photo-Title"> Image5</div>
+                </div>
+            </a>
+        </div>
+        <div class="Boby">
+            <a href="#">
+                <div>
+                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
+                </div>
+                <div>
+                    <div href="#" class="Photo-Title"> Image6</div>
+                </div>
+            </a>
+        </div>
+        <div class="Boby">
+            <a href="#">
+                <div>
+                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
+                </div>
+                <div>
+                    <div href="#" class="Photo-Title"> Image7</div>
+                </div>
+            </a>
+        </div>
+        <div class="Boby">
+            <a href="#">
+                <div>
+                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
+                </div>
+                <div>
+                    <div href="#" class="Photo-Title"> Image8</div>
+                </div>
+            </a>
+        </div>
     </div>
     <footer>
-        <hr>        
-			<div id="footer_left">Group 5 - 2019</div>
-			<div id="footer_right">Da Nang, Viet Nam</div>
+        <hr>
+        <div id="footer_left">Group 5 - 2019</div>
+        <div id="footer_right">Da Nang, Viet Nam</div>
     </footer>
-    <script srcr="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">             
+    <script srcr="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
     </script>
-    <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>
