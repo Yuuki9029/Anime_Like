@@ -9,7 +9,8 @@
 		<!--[if lt IE 9]>
             <script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
         <![endif]-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
     <title>Anime Like</title>
 
@@ -20,141 +21,293 @@
 
     <header class="container">
 
-        <a href="#" class="header-logo">
-            <img src="image/AnimeLike.png" alt="logo head" />
-        </a>
-
+        <a href="#" class="header-logo"><img src="images/AnimeLike.png" alt="logo head" /></a>
 
     </header>
-    <nav class="navbar navbar-inverse" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Home</a>
-            </div>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="#">Wallpapers</a>
+        <a class="navbar-brand" href="#">Fan Arts</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Wallpapers</a></li>
-                <li class="active"><a href="#">Fan Art</a></li>
-            </ul>
-            <form action="search.php" method="get" class="navbar-form navbar-right" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">Search</button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-default my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>
-    <div id="header-right">
-        <select id="all-type">
-            <option value="1">All Type</option>
-            <option value="2">Loli</option>
-            <option value="3">Shota</option>
-            <option value="4">Flat</option>
-        </select>
-        <select id="all-content">
-            <option value="all-content">All Content</option>
-            <option value="2016">2016</option>
-            <option value="2017">2017</option>
-            <option value="2018">2018</option>
-            <option value="2019">2019</option>
-        </select>
-        <select id="all-Categories">
-            <option value="all-categories">All Categories</option>
-            <option value="Hiten">Hiten</option>
-            <option value="Kantoku">Kantoku</option>
-        </select>
+
+    <div id="product-featured">
+        <div class="wrapper">
+            <div class="section-header">
+                <div id="header-right">
+                    <select id="all-type">
+                        <option value="1">All Type</option>
+                        <option value="2">Loli</option>
+                        <option value="3">Shota</option>
+                        <option value="4">Flat</option>
+                    </select>
+                    <select id="all-content">
+                        <option value="all-content">All Content</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                    </select>
+                    <select id="all-Categories">
+                        <option value="all-categories">All Categories</option>
+                        <option value="Hiten">Hiten</option>
+                        <option value="Kantoku">Kantoku</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="image-overview">
+                <div class="column">
+                    <a href="#">
+                        <div>
+                            <img src="images/Kochou_Shinobu.jpg" class="photo" alt="Kochou_Shinobu" />
+                        </div>
+                        <div>
+                            <div href="#" class="image-title">/Kny / Kochou_Shinobu</div>
+                            <div class="image-details">
+                                <span>Entry by Riku - 2500x1552 - 3,826kB</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="#">
+                        <div>
+                            <img src="images/Kochou_Shinobu_2.jpg" class="photo" alt="Kochou_Shinobu_art" />
+                        </div>
+                        <div>
+                            <div href="#" class="image-title">/Kny / Kochou_Shinobu (art)</div>
+                            <div class="image-details">
+                                <span>Entry by Riku - 2500x1552 - 3,826kB</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="#">
+                        <div>
+                            <img src="images/Demonios.jpg" class="photo" alt="Demonios" />
+                        </div>
+                        <div>
+                            <div href="#" class="image-title">/KnY/ Demonios</div>
+
+                            <div class="image-details">
+                                <span>Entry by Riku - 2500x1552 - 3,826kB</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="#">
+                        <div>
+                            <img src="images/Hate_chan.jpg" class="photo" alt="Hate_chan" />
+                        </div>
+                        <div>
+                            <div href="#" class="image-title">/Aoi Ogata/ Hate Chan</div>
+                            <div class="image-details">
+                                <span>Entry by Riku - 2500x1552 - 3,826kB</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="#">
+                        <div>
+                            <img src="images/MK416.jpg" class="photo" alt="MK416" />
+                        </div>
+                        <div>
+                            <div href="#" class="image-title">/Art/ MK416</div>
+                            <div class="image-details">
+                                <span>Entry by Riku - 2500x1552 - 3,826kB</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="#">
+                        <div>
+                            <img src="images/Hololive.png" class="photo" alt="Hololive" />
+                        </div>
+                        <div>
+                            <div href="#" class="image-title">/Art/ Hoholive</div>
+                            <div class="image-details">
+                                <span>Entry by SubaruSumeragi - 1023x723 - 861kB</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="#">
+                        <div>
+                            <img src="images/Cross_Over.png" class="photo" alt="Cross-over" />
+                        </div>
+                        <div>
+                            <div href="#" class="image-title">/Art/ Cross-over</div>
+                            <div class="image-details">
+                                <span>Entry by SubaruSumeragi - 1032x788 - 579kB</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="#">
+                        <div>
+                            <img src="images/Hololive.png" class="photo" alt="Hololive" />
+                        </div>
+                        <div>
+                            <div href="#" class="image-title">/Art/ Hoholive</div>
+                            <div class="image-details">
+                                <span>Entry by SubaruSumeragi - 1023x723 - 861kB</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="#">
+                        <div>
+                            <img src="images/Hololive_2.png" class="photo" alt="Hololive_2" />
+                        </div>
+                        <div>
+                            <div href="#" class="image-title">/Art/ Hoholive</div>
+                            <div class="image-details">
+                                <span>Entry by SubaruSumeragi - 1240x1754 - 2,361kB</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
     </div>
 
-    <div id="Home-Boby">
-        <div class="Boby">
-            <a href="#">
-                <div>
-                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
-                </div>
-                <div>
-                    <div href="#" class="Photo-Title"> Image1</div>
-                </div>
-            </a>
-        </div>
-        <div class="Boby">
-            <a href="#">
-                <div>
-                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
-                </div>
-                <div>
-                    <div href="#" class="Photo-Title"> Image2</div>
-                </div>
-            </a>
-        </div>
-        <div class="Boby">
-            <a href="#">
-                <div>
-                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
-                </div>
-                <div>
-                    <div href="#" class="Photo-Title"> Image3</div>
-                </div>
-            </a>
-        </div>
-        <div class="Boby">
-            <a href="#">
-                <div>
-                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
-                </div>
-                <div>
-                    <div href="#" class="Photo-Title"> Image4</div>
-                </div>
-            </a>
-        </div>
-        <div class="Boby">
-            <a href="#">
-                <div>
-                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
-                </div>
-                <div>
-                    <div href="#" class="Photo-Title"> Image5</div>
-                </div>
-            </a>
-        </div>
-        <div class="Boby">
-            <a href="#">
-                <div>
-                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
-                </div>
-                <div>
-                    <div href="#" class="Photo-Title"> Image6</div>
-                </div>
-            </a>
-        </div>
-        <div class="Boby">
-            <a href="#">
-                <div>
-                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
-                </div>
-                <div>
-                    <div href="#" class="Photo-Title"> Image7</div>
-                </div>
-            </a>
-        </div>
-        <div class="Boby">
-            <a href="#">
-                <div>
-                    <img src="image/ErrorIcon.jpg" class="Photo" alt="ErrorIcon" />
-                </div>
-                <div>
-                    <div href="#" class="Photo-Title"> Image8</div>
-                </div>
-            </a>
-        </div>
     </div>
-    <footer>
-        <hr>
-        <div id="footer_left">Group 5 - 2019</div>
-        <div id="footer_right">Da Nang, Viet Nam</div>
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+        <!-- Footer Elements -->
+        <div class="container section-header">
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-12 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="images/Demonios.jpg" class="img-fluid" alt="">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="images/Cross_Over.png" class="img-fluid" alt="">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="images/MK416.jpg" class="img-fluid" alt="">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-12 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="images/Kochou_Shinobu_2.jpg" class="img-fluid" alt="">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="images/Kochou_Shinobu.jpg" class="img-fluid" alt="">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="images/Hololive_2.png" class="img-fluid" alt="">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="#"> AnimeLike - Group 5</a>
+        </div>
+        <!-- Copyright -->
+
     </footer>
-    <script srcr="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

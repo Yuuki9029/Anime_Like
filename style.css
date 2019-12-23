@@ -1,22 +1,117 @@
-#header-right{
+/* Header */
+ader-right{
 	margin-left: 15px;
+	margin-top: 15px;
+	
 }
 
-.navbar-inverse .navbar-brand {
+select{
+	margin: 5px;
+}
+.navbar{
 	background-color: pink;
+
+}
+
+.navbar-brand {
+	color: white;
+	margin-left: 50px;
+}
+.nav-link{
 	color: white;
 }
-.navbar-nav{
-	background-color: pink;
-}
 
-.navbar-form .navbar-right{
-	margin-right: 100px;
+
+.form-inline .form-control{
+	width: 500px;
+	margin-left: 50em;
 }
 
 .header-logo img{
 	width: 500px;
 	height: 200px;
 	margin-top: -20px;
-	margin-left: -400px;
+	margin-left: 300px;
+
+}
+
+
+.wrapper{
+	width: 93%;
+	margin: auto;
+}
+
+.section-header{
+	margin-top: 50px;
+	position: relative;
+	border-bottom: 5px solid pink;
+
+	padding-bottom: 0.7%;
+}
+
+.column{
+	display: inline-block;
+	width: 32.5%;
+	text-align: center;
+}
+
+@media all and (max-width: 1024px)
+{
+    #product-overview .column{
+	display: inline-block;
+	width: 49%;
+	}  
+}
+
+@media all and (max-width: 560px)
+{
+    #product-overview .column{
+	display: block;
+	width: auto;
+	}  
+}
+
+.column p{
+	line-height: 165%;
+}
+
+.photo{
+	display: inline-block;
+	width: 75%;
+	margin-top: 20%;
+	margin-bottom: 3%;
+}
+#image-overview {
+	margin-bottom: 8%;;
+}
+
+#image-overview .column :hover  img{
+	-ms-transform: scale(1.2); /* IE 9 */
+	-webkit-transform: scale(1.2); /* Safari 3-8 */
+	transform: scale(1.2); 
+}
+.image-title{
+	font-weight: bold;
+	margin-bottom: 2.5%;
+}
+
+.image-details{
+	color: black;
+
+}
+
+.photo{
+	display: inline-block;
+	width: 70%;
+	height: 400px;
+	margin-top: 20%;
+	margin-bottom: 3%;
+	border-radius: 2%;
+}
+
+/*footer*/
+.img-fluid{
+	width: 500px;
+	height: 150px;
+	
 }
